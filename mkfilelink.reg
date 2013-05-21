@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@="Create Link"
+
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@="CMD /C C:\\Windows\\system\\mkfilelink.bat \"%1\""
+
