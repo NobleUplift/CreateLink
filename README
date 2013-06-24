@@ -1,0 +1,10 @@
+Instructions
+1. Install mkfilelink.bat and mkfolderlink.bat to C:\Windows\system.
+2. Double-click each of the .reg files.
+3. Done!
+
+Notes
+* The link is created in the parent directory of the link target so that you do not have to rename it.
+* Ipso facto, you cannot create links of top-level folders such as Program Files.
+* Hard links are not yet supported.
+* Junctions (cross-drive links) are not yet supported.
